@@ -30,11 +30,21 @@ body{
     padding: 10px;
     border-radius: 5px;
     display: inline-block;
-    font-weight: 600;
+    font-weight: 700;
+}
+.learning p:hover{
+    color:white;
+    cursor: pointer;
 }
 .heading{
     font-weight: 700;
     font-size: x-large;
+    color: hsl(0, 0%, 0%);
+}
+.heading:hover{
+    color: hsl(47, 88%, 63%);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
 }
 .profile{
     display: flex;
